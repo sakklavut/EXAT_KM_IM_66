@@ -1,0 +1,132 @@
+.bg_header_sub{
+    width: 100%;
+    height: auto;
+    background-image: url(../images/header__sub.png);
+    background-size: cover;
+}
+.icon_pro{
+    width: 32px;
+    height: 32px;
+}
+.out_login{
+    text-align: left;
+}
+.position{
+    text-align: left;
+}
+.login_sub{
+    display: flex;
+    padding-top: 5px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+}
+
+/* .box_logo_sub{
+    margin-top: 50px;
+} */
+.text_login_sub{
+    text-align: left;
+}
+.menu_box{
+    margin-bottom: 10px;
+}
+.notification .badge {
+    position: absolute;
+    top: 6px;
+    right: 132px;
+    padding: 2px 5px;
+    border-radius: 50%;
+    background: red;
+    color: white;
+}
+
+
+
+@media (min-width: 768px) { 
+    .text_login_sub{
+        font-size: 15px;
+    }
+    .position{
+        font-size: 15px;
+    }
+    .out_login{
+        font-size: 15px;
+    }
+    .logo {
+        width: 60%;
+    }
+    .box_logo_sub {
+        margin-top: 20px;
+    }
+    .menu_box{
+        margin-bottom: 10px;
+    }
+    .notification .badge {
+        position: absolute;
+        top: 6px;
+        right: 525px;
+        padding: 2px 5px;
+        border-radius: 50%;
+        background: red;
+        color: white;
+    }
+    .box_header_sub{
+        display: flex;
+    }
+    .notification .badge {
+        position: absolute;
+        top: 6px;
+        right: 557px;
+        padding: 2px 5px;
+        border-radius: 50%;
+        background: red;
+        color: white;
+    }
+    .logo {
+        width: 100%;
+    }
+    .box_logo_sub {
+        margin-top: 0px;
+    }
+    .box_menu {
+        margin-top: -2%;
+    }
+}
+@media (min-width: 1024px) { 
+    .box_header_sub {
+        display: flex;
+        justify-content: space-between;
+    }
+    .notification .badge {
+        position: absolute;
+        top: 6px;
+        right: 773px;
+        padding: 2px 5px;
+        border-radius: 50%;
+        background: red;
+        color: white;
+    }
+    .menu_box {
+        margin-top: 20px;
+    }
+}
+
+@media (min-width: 1440px) { 
+    .box_header_sub {
+        display: flex;
+        justify-content: space-between;
+    }
+    .notification .badge {
+        position: absolute;
+        top: 6px;
+        right: 1303px;
+        padding: 2px 5px;
+        border-radius: 50%;
+        background: red;
+        color: white;
+    }
+    .box_menu {
+        margin-top: 0%;
+    }
+}
